@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '8'
+before_script:
+- cd binnacle
+- npm install
+script:
+- (cd tns-platform-declarations && npm pack)
