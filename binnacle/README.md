@@ -2,6 +2,8 @@
 
 > A native application built with NativeScript-Vue
 
+[![Build Status](https://travis-ci.com/Binnacle-boys/binnacle.svg?branch=master)](https://travis-ci.com/Binnacle-boys/binnacle)
+
 ## Usage
 
 ``` bash
