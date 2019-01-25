@@ -6,13 +6,7 @@
   "license": "MIT",
   "scripts": {
     "tslint": "tslint -p tsconfig.json",
-    "check": "gts check",
-    "clean": "gts clean",
-    "compile": "tsc -p .",
-    "fix": "gts fix",
-    "prepare": "npm run compile",
-    "pretest": "npm run compile",
-    "posttest": "npm run check"
+    "fix": "gts fix"
   },
   "nativescript": {
     "id": "org.binnacleboys.binnacle",

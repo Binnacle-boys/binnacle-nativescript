@@ -1,9 +1,18 @@
 {
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
-    "rootDir": ".",
-    "outDir": "build"
+    "lib": [
+        "dom",
+        "es6",
+        "es2015.iterable"
+    ],
+    "baseUrl": "."
   },
+  "exclude": [
+    "node_modules",
+    "platforms",
+    "e2e"
+  ],
   "include": [
     "app/*.ts",
     "app/**/*.ts",
